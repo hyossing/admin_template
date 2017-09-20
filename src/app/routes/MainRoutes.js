@@ -15,7 +15,7 @@ import HomeConnected                from '../views/home';
 // import NotificationsConnected       from '../views/notifications';
 import PageNotFoundConnected        from '../views/pageNotFound';
 // import PaginationViewConnected      from '../views/pagination';
-// import SimpleTablesConnected        from '../views/simpleTables';
+import SimpleTablesConnected        from '../views/simpleTables';
 // import StatViewConnected            from '../views/stat';
 // import StatsCardConnected           from '../views/statsCard';
 // import StripedProgressBarConnected  from '../views/stripedProgressBar';
@@ -50,6 +50,8 @@ export const MainRoutes = () => (
     <Route path="/general/stripedProgressBars" component={StripedProgressBarConnected} />
     <Route path="/general/alerts" component={AlertConnected} />
     <Route path="/general/pagination" component={PaginationViewConnected} />*/}
+  
+    <Route exact path="/simpleTables" component={SimpleTablesConnected} />
 
   </Switch>
 );

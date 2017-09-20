@@ -64,7 +64,7 @@ export const navigation = {
         }
         */
       ]
-    }
+    },
     /*
     ,
     // group menu #2
@@ -131,6 +131,7 @@ export const navigation = {
         }
       ]
     },
+    */
     // group menu #4
     {
       id: 4,
@@ -143,6 +144,6 @@ export const navigation = {
         }
       ]
     }
-    */
+    
   ]
 };
