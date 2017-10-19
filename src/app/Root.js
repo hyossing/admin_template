@@ -35,8 +35,10 @@ class Root extends Component {
           <Router history={syncedHistory}>
             <ScrollTop>
               <Switch>
-                <Route exact path="/login" component={Login} />
-                <App />
+                {/*<Route exact path="/login" component={Login} />*/}
+                <Route exact path="/" component={Login} />
+                {/*<App />*/}
+                <Route path="/main" component={App} />
                 <Route component={PageNotFound} />
               </Switch>
             </ScrollTop>

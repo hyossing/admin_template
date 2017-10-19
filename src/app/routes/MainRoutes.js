@@ -25,10 +25,9 @@ import SimpleTablesConnected        from '../views/simpleTables';
 // import TwitterFeedConnected         from '../views/twitterFeed';
 // import WorkProgressConnected        from '../views/workProgress';
 
-
 export const MainRoutes = () => (
   <Switch>
-    <Route exact path="/" component={HomeConnected} />
+    <Route exact path="/main" component={HomeConnected} />
 
     {/*<Route path="/Dashboard/statsCard" component={StatsCardConnected} />
     <Route path="/Dashboard/earningGraph" component={EarningGraphConnected} />
@@ -51,7 +50,7 @@ export const MainRoutes = () => (
     <Route path="/general/alerts" component={AlertConnected} />
     <Route path="/general/pagination" component={PaginationViewConnected} />*/}
   
-    <Route exact path="/simpleTables" component={SimpleTablesConnected} />
+    <Route exact path="/main/simpleTables" component={SimpleTablesConnected} />
 
   </Switch>
 );

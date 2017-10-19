@@ -128,7 +128,7 @@ class App extends Component {
 
     // redirect to login
     const { history } = this.props;
-    history.push('/login');
+    history.push('/');
   }
 }
 

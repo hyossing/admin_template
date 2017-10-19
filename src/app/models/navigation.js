@@ -23,7 +23,7 @@ export const navigation = {
       menus: [
         {
           name: 'Dashboard preview',
-          linkTo: '/',
+          linkTo: '/main',
           faIconName: 'fa-eye'
         }
         /*,
@@ -139,7 +139,7 @@ export const navigation = {
       menus: [
         {
           name: 'Simple tables preview',
-          linkTo: '/simpleTables',
+          linkTo: '/main/simpleTables',
           faIconName: 'fa-eye'
         }
       ]

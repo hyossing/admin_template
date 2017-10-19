@@ -19,7 +19,7 @@ const Header = ({
 }) => (
   <header
     className="header fixed--header">
-    <a href="#"
+    <a href="#/main"
       className="logo">
       { appName }
     </a>

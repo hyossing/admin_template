@@ -26,6 +26,7 @@ function addJobs(quantity) {
 }
 
 addJobs(70);
+console.log("job list demo", jobs);
 
 function onRowSelect(row, isSelected) {
   console.log(row);
@@ -119,15 +120,15 @@ export default class App extends React.Component {
         columnFilter
         hover
         pagination>
-        <TableHeaderColumn dataField='id' dataAlign='center' dataSort isKey autoValue>Job ID</TableHeaderColumn>
-        <TableHeaderColumn dataField='name' className='good' dataSort
+        <TableHeaderColumn dataField="id" dataAlign="center" dataSort isKey autoValue>Job ID</TableHeaderColumn>
+        <TableHeaderColumn dataField="name" className="good" dataSort
           editable={ { type: 'textarea', validator: nameValidator } }>Job Name</TableHeaderColumn>
-        <TableHeaderColumn dataField='priority' dataSort dataFormat={ priorityFormatter }
+        <TableHeaderColumn dataField="priority" dataSort dataFormat={ priorityFormatter }
           editable={ {
             type: 'select',
             options: { values: [ 'A', 'B', 'C', 'D' ] },
             validator: priorityValidator } }>Job Priority</TableHeaderColumn>
-        <TableHeaderColumn dataField='active'
+        <TableHeaderColumn dataField="active"
           editable={ { type: 'checkbox', options: { values: ' Y:N' } } }>Active</TableHeaderColumn>
       </BootstrapTable>
     );
