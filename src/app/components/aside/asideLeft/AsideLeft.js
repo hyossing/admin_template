@@ -42,7 +42,7 @@ const AsideLeft = ({
   >
     <section className="sidebar">
       
-      {/*<UserPanel
+      <UserPanel
         hello={helloWord}
         username={username}
         connectionStatus={connectionStatus}
@@ -50,7 +50,7 @@ const AsideLeft = ({
         userPicture={userPicture}
         showUserPicture={showPicture}
       />
-      <Horloge /> */}
+      <Horloge />
       <SearchForm
         onSearchSubmit={(value) => console.log('searching: ', value)}
       />
